@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'PPCatalog' target in the 'PPCatalog' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+    #warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    //Apple Frameworks
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    //Logging
+    #import "PPCLog.h"
+
+    //PPToolkit
+    #import <PPToolkit/PPToolkit.h>
+    #import <PPToolkit/PPCategories.h>
+
+    //Core Data Stack
+    #import "PPCCoreDataStore.h"
+
+#endif

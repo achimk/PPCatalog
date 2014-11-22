@@ -1,0 +1,3 @@
+[submodule "PPCatalog/PPCatalog/Vendors/PPToolkit"]
+	path = PPCatalog/PPCatalog/Vendors/PPToolkit
+	url = git@github.com:achimk/PPToolkit.git

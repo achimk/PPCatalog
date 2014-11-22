@@ -1,0 +1,19 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - CocoaLumberjack (1.6)
+  - ISO8601DateFormatter (0.7)
+  - JazzHands (0.0.2)
+
+DEPENDENCIES:
+  - AFNetworking (= 1.3.3)
+  - CocoaLumberjack (= 1.6.0)
+  - ISO8601DateFormatter (= 0.7)
+  - JazzHands (= 0.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
+  CocoaLumberjack: 934fb52cdd8e070ee954a3c02a4b6bbb538cac3a
+  ISO8601DateFormatter: 00944e437ea647f4244454ce8809d313861d08de
+  JazzHands: ca4100a7ec6ee35858cb1c61ac7f63077010bb6c
+
+COCOAPODS: 0.28.0
